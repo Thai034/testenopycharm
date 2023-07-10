@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@font-face {
+    font-family: 'FonteLogo';
+}
+
+img#icone {
+    position: relative;
+    width: 600px;
+    box-shadow: #fff;
+}
+
+img#icone {
+    position: relative;
+}
+
+section h1 {
+    font-family: Calibri;
+    font-size: 30px;
+}
+
+header#cabecalho h1 {
+    font-family: Courier;
+    text-align: center;
+    color: #00009C;
+    padding: 0px;
+    margin-bottom: 0px; /*quando quiser mexer na margem so de baixo usa-se bottom*/
+    font-size: 50px;
+}
+
+header#cabecalho h2 {
+    font-family: Courier, sans-serif;
+    text-align: center;
+    color: #00009C; /*Cinza claro*/
+    padding-bottom: 30px;
+    margin-top: 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+}
+
+body {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    background-color: #3399cc; /* azul claro */
+}
+
+div#interface {
+    position: relative;/* Transforma a div em um container */
+    background-color: #c7e0f4; /* azul mais claro */
+    width: 900px;
+    margin: -23px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5); /* sombra */
+    padding: 10px; /* espaçamento interno da div */
+}
+
+footer#rodape {
+    margin: 10px auto 0px auto;
+    /*clear: both;*/
+    border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+    text-align: center;
+}
